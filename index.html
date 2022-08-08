@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albums</title>
     <link rel="stylesheet" href="/style.css">
-    <script defer src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./AlbumApi.js"></script>
 </head>
 <body>
     <div class="container">
@@ -23,11 +24,5 @@
             </div>
         </div>
     </div>
-    <script id="listTemplate" type="text/template">
-        <li class="albums__list-item"></li>
-    </script>
-    <script id="albumTemplate" type="text/template">
-            <li class="albums__album-item"></li>
-    </script>
 </body>
 </html>
